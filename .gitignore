@@ -1,0 +1,17 @@
+# Ignore a file
+secret.txt
+
+# Ignore a folder
+node_modules/
+
+# Ignore all .log files
+*.log
+
+# Ignore environment files
+.env
+
+# Ignore files inside any temp folder
+temp/
+
+# Ignore specific file type everywhere
+*.exe
