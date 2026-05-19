@@ -15,6 +15,8 @@ async function authArtist(req, res, next) {
         message: "You dont have access to perform this action",
       });
     }
+
+    req.user = decoded;
     next();
   } catch (err) {
     return res.status(401).json({
